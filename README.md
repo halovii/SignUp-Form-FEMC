@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop Ver
+Desktop Ver - Default form - Error State - Success State
 ![desktopVer](./finished-ss/Group%202.png)
 
-Tablet Ver
+Tablet Ver - Default form - Error State - Success State
 ![tabletver](./finished-ss/Group%203.png)
 
-Mobile Ver
+Mobile Ver - Default form - Error State - Success State
 ![mobilever](./finished-ss/Group%201.png)
 
 
