@@ -40,8 +40,8 @@ Mobile Ver - Default form - Error State - Success State
 
 ### Links
 
-- Solution URL: [coming soon](./)
-- Live Site URL: [coming soon](./)
+- Solution URL: [FEM Page](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-lZRURBA3V8)
+- Live Site URL: [Github Pages](https://halovii.github.io/SignUp-Form-FEMC)
 
 
 ## My process
