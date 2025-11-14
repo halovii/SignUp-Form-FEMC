@@ -13,10 +13,6 @@ successCard.classList.add('toggle-display'); // add display none
 // toggle error msg display
 errorMsg.classList.add('toggle-display'); // add display none
 
-// toggle error state on input field
-// emailInput.classList.remove('input-error'); // remove error
-
-
 // check if email is valid
 function isValid() {
     let emailVal = emailInput.value.trim();
@@ -39,7 +35,7 @@ function isValid() {
         emailInput.classList.add('input-error'); // toggle error state
         return false;
     };
-}
+};
 
 function close() {
     setTimeout(() => {
@@ -47,7 +43,7 @@ function close() {
         formCard.classList.remove('toggle-display'); // toggle form card on
         emailInput.focus();
     }, 100);
-}
+};
 
 function onSubmit() {
     if (isValid()) {
@@ -56,19 +52,12 @@ function onSubmit() {
         emailInput.value = "";
     } else {
         return;
-    }
+    };
 
-}
+};
 
 // submit btn event listener 
 subBtn.addEventListener('click', onSubmit);
 
 // dismiss btn event listner
 dismissBtn.addEventListener('click', close);
-
-
-
-
-
-// js to do:
-// trigger invalid/error states when an invalid email has been entered, possibly make button disabled until email is fixed?
